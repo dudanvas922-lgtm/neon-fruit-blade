@@ -27,7 +27,7 @@ const spriteFruitAssets = Object.fromEntries(
     Object.fromEntries(
       ["full", "left", "right", "splash"].map((state) => {
         const image = new Image();
-        image.src = `./assets/fruits/${name}-${state}.png`;
+        image.src = `./assets/fruits/${name}-${state}.svg`;
         return [state, image];
       })
     ),
