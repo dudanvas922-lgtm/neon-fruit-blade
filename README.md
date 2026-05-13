@@ -4,7 +4,7 @@ A mobile fruit-slicing PWA game designed for iPhone.
 
 ## Play
 
-Publish this repository with GitHub Pages, then open it in iPhone Safari and use Add to Home Screen.
+Open `index.html` in a browser, or publish this repository with GitHub Pages and add it to the iPhone home screen from Safari.
 
 ## Files
 

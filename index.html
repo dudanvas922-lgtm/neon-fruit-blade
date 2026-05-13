@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#061014" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="霓虹果刃" />
+    <title>霓虹果刃</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./icon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="phone-shell" aria-label="霓虹果刃游戏">
+      <canvas id="game" aria-label="滑动切水果游戏画面"></canvas>
+
+      <section class="hud hud-top" aria-label="游戏状态">
+        <div>
+          <span class="label">SCORE</span>
+          <strong id="score">0</strong>
+          <small id="best">BEST 0</small>
+        </div>
+        <div class="timer">
+          <span id="time">0:45</span>
+        </div>
+        <div class="lives" id="lives" aria-label="生命值">
+          <span></span><span></span><span></span>
+        </div>
+      </section>
+
+      <section class="hud hud-bottom" aria-label="连击状态">
+        <div class="combo">
+          <strong id="combo">x1</strong>
+          <span>COMBO</span>
+        </div>
+        <div class="meter" aria-hidden="true">
+          <i id="meterFill"></i>
+        </div>
+        <button id="restart" type="button" aria-label="重新开始">
+          <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+            <path d="M19 12a7 7 0 1 1-2.05-4.95" />
+            <path d="M19 4v5h-5" />
+          </svg>
+        </button>
+      </section>
+
+      <div class="message" id="message">
+        <strong>霓虹果刃</strong>
+        <span>滑动屏幕切开水果，避开炸弹。</span>
+        <button id="start" type="button">开始</button>
+      </div>
+    </main>
+
+    <script src="./game.js"></script>
+    <script>
+      if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
+        window.addEventListener("load", () => navigator.serviceWorker.register("./sw.js"));
+      }
+    </script>
+  </body>
+</html>

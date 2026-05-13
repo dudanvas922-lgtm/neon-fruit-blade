@@ -1,0 +1,18 @@
+{
+  "name": "霓虹果刃",
+  "short_name": "果刃",
+  "description": "滑动屏幕切开水果，避开炸弹。",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#061014",
+  "theme_color": "#061014",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
