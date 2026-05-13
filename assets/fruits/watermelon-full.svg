@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<defs>
+
+<radialGradient id="watermelon-full-skin" cx="32%" cy="24%" r="78%">
+  <stop offset="0%" stop-color="#78d45b"/>
+  <stop offset="48%" stop-color="#239c4a"/>
+  <stop offset="100%" stop-color="#0b5d31"/>
+</radialGradient>
+<radialGradient id="watermelon-full-flesh" cx="34%" cy="24%" r="82%">
+  <stop offset="0%" stop-color="#ff7982"/>
+  <stop offset="55%" stop-color="#f23b48"/>
+  <stop offset="100%" stop-color="#b9152d"/>
+</radialGradient>
+<linearGradient id="watermelon-full-leaf" x1="0" x2="1" y1="0" y2="1">
+  <stop offset="0%" stop-color="#a9f07a"/>
+  <stop offset="100%" stop-color="#2b8b43"/>
+</linearGradient>
+<radialGradient id="watermelon-full-shine" cx="50%" cy="50%" r="50%">
+  <stop offset="0%" stop-color="#ffffff" stop-opacity=".72"/>
+  <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="watermelon-full-roundClip">
+  <ellipse cx="256" cy="262" rx="166" ry="174"/>
+</clipPath>
+</defs>
+<g transform="rotate(-8 256 256)">
+<ellipse cx="256" cy="262" rx="180" ry="160" fill="url(#watermelon-full-skin)"/>
+<g clip-path="url(#watermelon-full-roundClip)"><path d="M114 112 C92 190 136 292 106 418" fill="none" stroke="#d8ffb3" stroke-width="8" opacity=".36" stroke-linecap="round"/><path d="M154 112 C132 190 176 292 146 418" fill="none" stroke="#0d4c2a" stroke-width="20" opacity=".55" stroke-linecap="round"/><path d="M194 112 C172 190 216 292 186 418" fill="none" stroke="#d8ffb3" stroke-width="8" opacity=".36" stroke-linecap="round"/><path d="M234 112 C212 190 256 292 226 418" fill="none" stroke="#0d4c2a" stroke-width="20" opacity=".55" stroke-linecap="round"/><path d="M274 112 C252 190 296 292 266 418" fill="none" stroke="#d8ffb3" stroke-width="8" opacity=".36" stroke-linecap="round"/><path d="M314 112 C292 190 336 292 306 418" fill="none" stroke="#0d4c2a" stroke-width="20" opacity=".55" stroke-linecap="round"/><path d="M354 112 C332 190 376 292 346 418" fill="none" stroke="#d8ffb3" stroke-width="8" opacity=".36" stroke-linecap="round"/><path d="M394 112 C372 190 416 292 386 418" fill="none" stroke="#0d4c2a" stroke-width="20" opacity=".55" stroke-linecap="round"/></g>
+<ellipse cx="256" cy="262" rx="179" ry="159" fill="none" stroke="#d7ffc0" stroke-width="7" opacity=".38"/>
+<ellipse cx="196" cy="180" rx="44" ry="18" fill="#fff" opacity=".35" transform="rotate(-34 196 180)"/>
+<ellipse cx="174" cy="224" rx="18" ry="7" fill="#fff" opacity=".2" transform="rotate(-28 174 224)"/><path d="M240 104 C226 64 242 42 282 42" fill="none" stroke="#5a3319" stroke-width="15" stroke-linecap="round"/>
+<path d="M282 48 C332 32 362 62 370 101 C325 100 292 86 282 48Z" fill="url(#watermelon-full-leaf)"/>
+<path d="M294 58 C318 63 341 75 361 94" fill="none" stroke="#daf6b9" stroke-width="3" opacity=".55" stroke-linecap="round"/>
+</g>
+</svg>

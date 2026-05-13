@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<defs>
+
+<radialGradient id="mango-left-skin" cx="32%" cy="24%" r="78%">
+  <stop offset="0%" stop-color="#ffe36b"/>
+  <stop offset="48%" stop-color="#ffb13a"/>
+  <stop offset="100%" stop-color="#e86925"/>
+</radialGradient>
+<radialGradient id="mango-left-flesh" cx="34%" cy="24%" r="82%">
+  <stop offset="0%" stop-color="#fff2a0"/>
+  <stop offset="55%" stop-color="#ffd057"/>
+  <stop offset="100%" stop-color="#ff962f"/>
+</radialGradient>
+<linearGradient id="mango-left-leaf" x1="0" x2="1" y1="0" y2="1">
+  <stop offset="0%" stop-color="#a9f07a"/>
+  <stop offset="100%" stop-color="#2b8b43"/>
+</linearGradient>
+<radialGradient id="mango-left-shine" cx="50%" cy="50%" r="50%">
+  <stop offset="0%" stop-color="#ffffff" stop-opacity=".72"/>
+  <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="mango-left-roundClip">
+  <ellipse cx="256" cy="262" rx="166" ry="174"/>
+</clipPath>
+</defs>
+<g>
+<path d="M260 74 C170 92 100 172 98 260 C96 351 166 423 260 438 Z" fill="url(#mango-left-skin)"/>
+<path d="M260 95 C187 111 124 179 122 260 C121 337 181 398 260 418 Z" fill="url(#mango-left-flesh)"/>
+<path d="M260 95 L260 418" stroke="#fff" stroke-width="9" opacity=".6" stroke-linecap="round"/>
+<path d="M260 95 C187 111 124 179 122 260 C121 337 181 398 260 418" fill="none" stroke="#b95a19" stroke-width="7" opacity=".5"/>
+<path d="M146 337 C190 310 216 231 235 130" fill="none" stroke="#ffef95" stroke-width="7" opacity=".45"/>
+<path d="M153 210 C185 170 220 145 255 132" fill="none" stroke="#fff4a8" stroke-width="6" opacity=".32"/>
+<ellipse cx="198" cy="180" rx="34" ry="12" fill="#fff" opacity=".26" transform="rotate(-31 198 180)"/>
+</g>
+</svg>

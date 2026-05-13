@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<defs>
+
+<radialGradient id="pineapple-right-skin" cx="32%" cy="24%" r="78%">
+  <stop offset="0%" stop-color="#ffe471"/>
+  <stop offset="48%" stop-color="#f4b21d"/>
+  <stop offset="100%" stop-color="#a56f14"/>
+</radialGradient>
+<radialGradient id="pineapple-right-flesh" cx="34%" cy="24%" r="82%">
+  <stop offset="0%" stop-color="#fff4a7"/>
+  <stop offset="55%" stop-color="#ffd45d"/>
+  <stop offset="100%" stop-color="#f5a821"/>
+</radialGradient>
+<linearGradient id="pineapple-right-leaf" x1="0" x2="1" y1="0" y2="1">
+  <stop offset="0%" stop-color="#a9f07a"/>
+  <stop offset="100%" stop-color="#2b8b43"/>
+</linearGradient>
+<radialGradient id="pineapple-right-shine" cx="50%" cy="50%" r="50%">
+  <stop offset="0%" stop-color="#ffffff" stop-opacity=".72"/>
+  <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="pineapple-right-roundClip">
+  <ellipse cx="256" cy="262" rx="166" ry="174"/>
+</clipPath>
+</defs>
+<g transform="translate(512 0) scale(-1 1)">
+<path d="M260 74 C170 92 100 172 98 260 C96 351 166 423 260 438 Z" fill="url(#pineapple-right-skin)"/>
+<path d="M260 95 C187 111 124 179 122 260 C121 337 181 398 260 418 Z" fill="url(#pineapple-right-flesh)"/>
+<path d="M260 95 L260 418" stroke="#fff" stroke-width="9" opacity=".6" stroke-linecap="round"/>
+<path d="M260 95 C187 111 124 179 122 260 C121 337 181 398 260 418" fill="none" stroke="#845511" stroke-width="7" opacity=".5"/>
+<path d="M125 150 L260 238" stroke="#845511" stroke-width="4" opacity=".3"/><path d="M260 150 L126 238" stroke="#845511" stroke-width="4" opacity=".24"/><path d="M125 193 L260 281" stroke="#845511" stroke-width="4" opacity=".3"/><path d="M260 193 L126 281" stroke="#845511" stroke-width="4" opacity=".24"/><path d="M125 236 L260 324" stroke="#845511" stroke-width="4" opacity=".3"/><path d="M260 236 L126 324" stroke="#845511" stroke-width="4" opacity=".24"/><path d="M125 279 L260 367" stroke="#845511" stroke-width="4" opacity=".3"/><path d="M260 279 L126 367" stroke="#845511" stroke-width="4" opacity=".24"/><path d="M125 322 L260 410" stroke="#845511" stroke-width="4" opacity=".3"/><path d="M260 322 L126 410" stroke="#845511" stroke-width="4" opacity=".24"/><path d="M125 365 L260 453" stroke="#845511" stroke-width="4" opacity=".3"/><path d="M260 365 L126 453" stroke="#845511" stroke-width="4" opacity=".24"/><path d="M176 112 C150 70 153 46 188 24" fill="none" stroke="#4d9b42" stroke-width="14" stroke-linecap="round"/><path d="M214 105 C236 64 266 47 312 48" fill="none" stroke="#4d9b42" stroke-width="14" stroke-linecap="round"/>
+<ellipse cx="198" cy="180" rx="34" ry="12" fill="#fff" opacity=".26" transform="rotate(-31 198 180)"/>
+</g>
+</svg>

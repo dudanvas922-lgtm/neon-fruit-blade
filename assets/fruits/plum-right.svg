@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<defs>
+
+<radialGradient id="plum-right-skin" cx="32%" cy="24%" r="78%">
+  <stop offset="0%" stop-color="#b687ff"/>
+  <stop offset="48%" stop-color="#7340cf"/>
+  <stop offset="100%" stop-color="#3a207d"/>
+</radialGradient>
+<radialGradient id="plum-right-flesh" cx="34%" cy="24%" r="82%">
+  <stop offset="0%" stop-color="#e2b9ff"/>
+  <stop offset="55%" stop-color="#bb89ff"/>
+  <stop offset="100%" stop-color="#7a45d9"/>
+</radialGradient>
+<linearGradient id="plum-right-leaf" x1="0" x2="1" y1="0" y2="1">
+  <stop offset="0%" stop-color="#a9f07a"/>
+  <stop offset="100%" stop-color="#2b8b43"/>
+</linearGradient>
+<radialGradient id="plum-right-shine" cx="50%" cy="50%" r="50%">
+  <stop offset="0%" stop-color="#ffffff" stop-opacity=".72"/>
+  <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="plum-right-roundClip">
+  <ellipse cx="256" cy="262" rx="166" ry="174"/>
+</clipPath>
+</defs>
+<g transform="translate(512 0) scale(-1 1)">
+<path d="M260 74 C170 92 100 172 98 260 C96 351 166 423 260 438 Z" fill="url(#plum-right-skin)"/>
+<path d="M260 95 C187 111 124 179 122 260 C121 337 181 398 260 418 Z" fill="url(#plum-right-flesh)"/>
+<path d="M260 95 L260 418" stroke="#fff" stroke-width="9" opacity=".6" stroke-linecap="round"/>
+<path d="M260 95 C187 111 124 179 122 260 C121 337 181 398 260 418" fill="none" stroke="#2d1767" stroke-width="7" opacity=".5"/>
+<path d="M216 100 C194 180 199 340 228 420" fill="none" stroke="#f0d6ff" stroke-width="7" opacity=".35"/>
+<circle cx="150" cy="142" r="1.8" fill="#f2dcff" opacity="0.16"/><circle cx="197" cy="215" r="2.8" fill="#f2dcff" opacity="0.21"/><circle cx="244" cy="288" r="3.8" fill="#f2dcff" opacity="0.27"/><circle cx="291" cy="155" r="1.8" fill="#f2dcff" opacity="0.33"/><circle cx="338" cy="228" r="2.8" fill="#f2dcff" opacity="0.16"/><circle cx="169" cy="301" r="3.8" fill="#f2dcff" opacity="0.21"/><circle cx="216" cy="168" r="1.8" fill="#f2dcff" opacity="0.27"/><circle cx="263" cy="241" r="2.8" fill="#f2dcff" opacity="0.33"/><circle cx="310" cy="314" r="3.8" fill="#f2dcff" opacity="0.16"/><circle cx="357" cy="181" r="1.8" fill="#f2dcff" opacity="0.21"/><circle cx="188" cy="254" r="2.8" fill="#f2dcff" opacity="0.27"/><circle cx="235" cy="327" r="3.8" fill="#f2dcff" opacity="0.33"/>
+<ellipse cx="198" cy="180" rx="34" ry="12" fill="#fff" opacity=".26" transform="rotate(-31 198 180)"/>
+</g>
+</svg>

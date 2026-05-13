@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<defs>
+
+<radialGradient id="plum-splash-skin" cx="32%" cy="24%" r="78%">
+  <stop offset="0%" stop-color="#b687ff"/>
+  <stop offset="48%" stop-color="#7340cf"/>
+  <stop offset="100%" stop-color="#3a207d"/>
+</radialGradient>
+<radialGradient id="plum-splash-flesh" cx="34%" cy="24%" r="82%">
+  <stop offset="0%" stop-color="#e2b9ff"/>
+  <stop offset="55%" stop-color="#bb89ff"/>
+  <stop offset="100%" stop-color="#7a45d9"/>
+</radialGradient>
+<linearGradient id="plum-splash-leaf" x1="0" x2="1" y1="0" y2="1">
+  <stop offset="0%" stop-color="#a9f07a"/>
+  <stop offset="100%" stop-color="#2b8b43"/>
+</linearGradient>
+<radialGradient id="plum-splash-shine" cx="50%" cy="50%" r="50%">
+  <stop offset="0%" stop-color="#ffffff" stop-opacity=".72"/>
+  <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="plum-splash-roundClip">
+  <ellipse cx="256" cy="262" rx="166" ry="174"/>
+</clipPath>
+</defs>
+<g>
+<path d="M168 258 C190 198 245 195 259 224 C295 177 355 206 336 265 C393 272 389 336 327 326 C301 379 232 365 229 323 C179 347 137 306 168 258Z" fill="url(#plum-splash-flesh)" opacity=".86"/>
+<path d="M178 260 C214 238 257 230 333 264" fill="none" stroke="#fff" stroke-width="10" opacity=".28" stroke-linecap="round"/>
+<circle cx="314.0" cy="258.0" r="7" fill="#bb89ff" opacity="0.58"/><circle cx="336.8" cy="282.1" r="10" fill="#b56fff" opacity="0.6599999999999999"/><circle cx="343.3" cy="318.1" r="13" fill="#b56fff" opacity="0.74"/><circle cx="327.0" cy="358.8" r="16" fill="#bb89ff" opacity="0.82"/><circle cx="266.1" cy="304.8" r="19" fill="#b56fff" opacity="0.58"/><circle cx="241.1" cy="327.4" r="7" fill="#b56fff" opacity="0.6599999999999999"/><circle cx="199.0" cy="339.0" r="10" fill="#bb89ff" opacity="0.74"/><circle cx="147.2" cy="332.8" r="13" fill="#b56fff" opacity="0.82"/><circle cx="201.5" cy="274.3" r="16" fill="#b56fff" opacity="0.58"/><circle cx="170.0" cy="258.0" r="19" fill="#bb89ff" opacity="0.6599999999999999"/><circle cx="148.9" cy="226.0" r="7" fill="#b56fff" opacity="0.74"/><circle cx="147.2" cy="183.2" r="10" fill="#b56fff" opacity="0.82"/><circle cx="227.0" cy="216.8" r="13" fill="#bb89ff" opacity="0.58"/><circle cx="241.1" cy="188.6" r="16" fill="#b56fff" opacity="0.6599999999999999"/><circle cx="275.8" cy="165.9" r="19" fill="#b56fff" opacity="0.74"/><circle cx="327.0" cy="157.2" r="7" fill="#bb89ff" opacity="0.82"/><circle cx="300.4" cy="227.4" r="10" fill="#b56fff" opacity="0.58"/><circle cx="336.8" cy="233.9" r="13" fill="#b56fff" opacity="0.6599999999999999"/><path d="M176 195 l18 -6 l-7 21 Z" fill="#e2b9ff" opacity=".75"/><path d="M217 254 l23 -5 l-7 25 Z" fill="#e2b9ff" opacity=".75"/><path d="M258 313 l28 -4 l-7 29 Z" fill="#e2b9ff" opacity=".75"/><path d="M299 246 l18 -3 l-7 33 Z" fill="#e2b9ff" opacity=".75"/><path d="M340 305 l23 -2 l-7 21 Z" fill="#e2b9ff" opacity=".75"/><path d="M211 238 l28 -6 l-7 25 Z" fill="#e2b9ff" opacity=".75"/><path d="M252 297 l18 -5 l-7 29 Z" fill="#e2b9ff" opacity=".75"/><path d="M293 230 l23 -4 l-7 33 Z" fill="#e2b9ff" opacity=".75"/><path d="M334 289 l28 -3 l-7 21 Z" fill="#e2b9ff" opacity=".75"/>
+</g>
+</svg>
